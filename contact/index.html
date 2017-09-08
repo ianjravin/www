@@ -1,0 +1,184 @@
+<!DOCTYPE>
+<htm lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <title>Nouv</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/component.css">
+
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google web font  -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/e055ce0ab5.js"></script>
+
+    <style>
+      #overlay {
+        position: absolute;
+        display: none;
+        /*    width: 100%;
+    height: 100%;*/
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+      }
+
+      #text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        color: white;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Contact section -->
+
+
+    <footer id="contact" class="footer-contact">
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- Map and address -->
+          <div class="col-lg-6 no-gap contact-info">
+            <div id="overlay" onclick="off()">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe width="100%" height="100%" style="position:absolute;" id="gmap_canvas" src="https://maps.google.com/maps?q=MarsaBit%20Plaza%2C%20Ngong%20Road%2C%20Nairobi%2C%20Kenya&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <style>
+                  /*.mapouter {
+                                        overflow: hidden;
+                                        height: 500px;
+                                        width: 600px;
+                                    }*/
+
+                  .gmap_canvas {
+                    background: none!important;
+                    height: 500px;
+                    width: 600px;
+                  }
+                </style>
+              </div>
+            </div>
+
+            <div id="hide">
+              <!-- Show Info Button -->
+              <a href="#" class="show-info-link"><i class="fa fa-info"></i>Show info</a>
+
+              <div id="map-canvas" class="footer-map"></div>
+
+              <address class="contact-info-wrapper">
+                  <ul>
+                    <!-- Address -->
+                    <li class="contact-group">
+                      <span class="adr-heading">Address</span>
+                      <span class="adr-info">Marsabit plaza 6th floor,Ngong' road,Nrb</span>
+                    </li>
+                    <!-- Email -->
+                    <li class="contact-group">
+                      <span class="adr-heading">Email</span>
+                      <span class="adr-info">info@nouveta.tech</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <!-- Phone -->
+                    <li class="contact-group">
+                      <span class="adr-heading">Phone</span>
+                      <span class="adr-info">+ 254 720 967 297</span>
+                    </li>
+                    <!-- Mobile -->
+                    <li class="contact-group">
+                      <span class="adr-heading">Mobile</span>
+                      <span class="adr-info">+ 254 720 967 297</span>
+                    </li>
+                  </ul>
+                    <button type="button" name="button" class="map" onclick="on()"><span class="fa fa-map-marker"></span> Show Map</button>
+                  </address>
+              <!-- Contact Form -->
+
+
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 no-gap section contact-form">
+            <header class="sec-heading">
+              <h2>CONTACT</h2>
+              <span class="subheading">To get more information on our work and services</span>
+              <p>or if you have any questions,please feel happy to ask ,</p>
+              <p>we would be happy to attend to you</p>
+            </header>
+
+
+            <form action="assets/contact-form/#" method="POST" class="form-ajax wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+
+              <!-- Name -->
+              <div class="form-group">
+                <input type="text" name="name" id="name-contact-1" class="form-control validate-locally" placeholder="Enter your name">
+                <label for="name-contact-1">Name</label>
+                <span class="pull-right alert-error"></span>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <input type="email" name="email" id="email-contact-1" class="form-control validate-locally" placeholder="Enter your email">
+                <label for="email-contact-1">Email</label>
+                <span class="pull-right alert-error"></span>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="message-contact-1" rows="5" placeholder="Your Message"></textarea>
+                <label for="message-contact-1">Message</label>
+              </div>
+              <!-- <input type="submit" class="btn pull-right" value="Send Message"> -->
+              <button type="button" name="button" class="message">Send Message</button>
+              <!-- Ajax Message -->
+              <div class="ajax-message col-md-12 no-gap"></div>
+
+            </form>
+          </div>
+          <!-- / .col-lg-6 -->
+
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container-fluid -->
+
+
+      <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script>
+        function on() {
+          document.getElementById("overlay").style.display = "block";
+        }
+
+        function off() {
+          document.getElementById("overlay").style.display = "none";
+        }
+      </script>
+
+  </body>
+
+  </html>
