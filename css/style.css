@@ -627,6 +627,7 @@ t /*
 
 	#office-carousel .item img{
 		width: 100%;
+		padding-top: 100px; 
 	}
 
 
@@ -1081,4 +1082,7 @@ t /*
 	.scroll-up a:active {
 		background-color: #f5f5f5;
 		color: #000;
+	}
+	.work-desc {
+		text-align: center;
 	}
