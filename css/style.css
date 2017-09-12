@@ -241,7 +241,7 @@ t /*
 		background-repeat: no-repeat;
 		background-size:cover;
 		width:100%;
-		height: 650px;
+		height: 450px;
 	}
 
 	#home-carousel .item:before{
@@ -627,7 +627,7 @@ t /*
 
 	#office-carousel .item img{
 		width: 100%;
-		padding-top: 100px; 
+		padding-top: 100px;
 	}
 
 
