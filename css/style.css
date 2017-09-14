@@ -297,11 +297,11 @@ t /*
 		top: 50%;
 		width: 32px;
 		z-index: 999;
-		-webkit-transition: 300ms;
-		-moz-transition: 300ms;
-		-o-transition: 300ms;
-		-ms-transition: 300ms;
-		transition: 300ms;
+		-webkit-transition: 1000ms;
+		-moz-transition: 1000ms;
+		-o-transition: 1000ms;
+		-ms-transition: 1000ms;
+		transition: 1000ms;
 	}
 
 	.home-carousel-left {
@@ -325,19 +325,19 @@ t /*
 	#home-carousel .item h2,
 	#home-carousel .item p {
 		opacity:0;
-		-moz-transform: scale(0.5);
-		-webkit-transform: scale(0.5);
-		-o-transform: scale(0.5);
-		-ms-transform: scale(0.5);
-		transform: scale(0.5);
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
 	}
 
 	#home-carousel .item h1 {
-		-webkit-transition: all 0.5s ease-in-out 0.15s;
-		-moz-transition: all 0.5s ease-in-out 0.15s;
-		-ms-transition: all 0.5s ease-in-out 0.15s;
-		-o-transition: all 0.5s ease-in-out 0.15s;
-		transition: all 0.5s ease-in-out 0.15s;
+		-webkit-transition: all 0.10s ease-in-out 0.30s;
+		-moz-transition: all 0.10s ease-in-out 0.30s;
+		-ms-transition: all 0.10s ease-in-out 0.30s;
+		-o-transition: all 0.10s ease-in-out 0.30s;
+		transition: all 0.10s ease-in-out 0.30s;
 	}
 
 	#home-carousel .item.active h1,
@@ -352,19 +352,19 @@ t /*
 	}
 
 	#home-carousel .item h2 {
-		-webkit-transition: all 0.5s ease-in-out 0.30s;
-		-moz-transition: all 0.5s ease-in-out 0.30s;
-		-ms-transition: all 0.5s ease-in-out 0.30s;
-		-o-transition: all 0.5s ease-in-out 0.30s;
-		transition: all 0.5s ease-in-out 0.30s;
+		-webkit-transition: all 0.10s ease-in-out 0.60s;
+		-moz-transition: all 0.10s ease-in-out 0.60s;
+		-ms-transition: all 0.10s ease-in-out 0.60s;
+		-o-transition: all 0.10s ease-in-out 0.60s;
+		transition: all 0.10s ease-in-out 0.60s;
 	}
 
 	#home-carousel .item p {
-		-webkit-transition: all 0.5s ease-in-out 0.45s;
-		-moz-transition: all 0.5s ease-in-out 0.45s;
-		-ms-transition: all 0.5s ease-in-out 0.45s;
-		-o-transition: all 0.5s ease-in-out 0.45s;
-		transition: all 0.5s ease-in-out 0.45s;
+		-webkit-transition: all 0.10s ease-in-out 0.90s;
+		-moz-transition: all 0.10s ease-in-out 0.90s;
+		-ms-transition: all 0.10s ease-in-out 0.90s;
+		-o-transition: all 0.10s ease-in-out 0.90s;
+		transition: all 0.10s ease-in-out 0.90s;
 	}
 
 
@@ -626,7 +626,7 @@ t /*
 	}
 
 	#office-carousel .item img{
-		width: 100%;
+		width: 100%;<p>   </p>
 		padding-top: 100px;
 	}
 
@@ -700,6 +700,10 @@ t /*
 
 	.team-member:hover .member-social a{
 		margin: 6px;
+	}
+	.iyo{
+		padding-top: 10%;
+		padding-right: 10%;
 	}
 
 
